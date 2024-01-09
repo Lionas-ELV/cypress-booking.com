@@ -1,0 +1,16 @@
+{
+  "name": "cypress_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open -b chrome --e2e",
+    "cy:run": "cypress run -b chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "dayjs": "^1.11.10"
+  }
+}
